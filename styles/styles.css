@@ -45,11 +45,13 @@ header{
     border: none;
 }
 
+main{
+    background: #FFF;
+}
+
 /* Failures section styles */
 .failure-section{
-    background: pink;
     display: flex;
-    gap: 134px;
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -70,5 +72,15 @@ header{
     color: #444343;
     font-size: 16px;
     font-weight: 400;
+    margin-bottom: 16px;
+    
+}
+
+.p-icon{
+    gap: 8px;
+}
+
+.fa-solid{
+    color: #16D887;
 }
 
