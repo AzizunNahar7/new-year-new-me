@@ -55,6 +55,7 @@ main{
     justify-content: center;
     align-items: center;
     text-align: left;
+    margin-bottom: 140px;
 }
 
 .failure-content{
@@ -84,3 +85,35 @@ main{
     color: #16D887;
 }
 
+
+/* Plan section styles */
+.plan-title{
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.skills-container{
+    display: flex;
+    text-align: center;
+}
+
+.s-pic{
+    margin-bottom: 24px;
+}
+
+.skill-title{
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.skill-description{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 135px;
+}
