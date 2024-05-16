@@ -1,11 +1,11 @@
 *{
     margin: 0 auto;
+    padding: 0;
 }
 
 /* Shared styles */
 body{
     font-family: "Work Sans", sans-serif;
-    max-width: 1600px;
 }
 
 /* Header section styles */
@@ -13,12 +13,13 @@ header{
     background-image: url('../images/banner/banner3.png');
     background-repeat: no-repeat;
     margin-bottom: 140px;
+    height: 808px;
+    text-align: right;
+    
 }
 
 .header-container{
-    max-width: 525px;
-    text-align: right;
-    padding: 216px 230px 166px 845px;
+   padding: 216px 230px 166px; 
 }
 
 .header-title{
@@ -54,15 +55,11 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
-    margin-bottom: 140px;
+    margin:0 280px 140px 206px;
+    gap: 134px;
 }
 
-.failure-content{
-    width: 416px;
-}
-
-.failure-title{
+.title{
     color: #151414;
     font-size: 40px;
     font-weight: 700;
@@ -88,19 +85,17 @@ main{
 
 /* Plan section styles */
 .plan-title{
-    color: #151414;
+    margin-bottom: 53px;
     text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    margin-bottom: 50px;
 }
 
 .skills-container{
     display: flex;
     text-align: center;
+    padding:0 170px;
 }
 
-.s-pic{
+.skill-logo{
     margin-bottom: 24px;
 }
 
@@ -116,4 +111,23 @@ main{
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 135px;
+}
+
+/* Positive section styles */
+.positive-section{
+    background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 50%),url('../images/watch.png');
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 130px;
+    margin-left: 190px;
+    
+}
+.positive-content{
+    padding: 60px;
+}
+
+.positive-title{
+    color: white;
+    margin-bottom: 24px;
 }
