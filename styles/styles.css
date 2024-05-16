@@ -131,3 +131,53 @@ main{
     color: white;
     margin-bottom: 24px;
 }
+
+/* Footer section styles */
+footer{
+    background-color: black;
+    height: 577px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    padding:130px 70px 130px 0;
+}
+
+.footer-title{
+    color: #FFF;
+    margin-bottom: 16px;
+}
+
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.num{
+    margin-top: 16px;
+}
+
+.footer-icon{
+   margin-top: 32px;
+}
+
+.footer-btn{
+    background-color: #005FAC;
+    color: white;
+    display: block;
+    margin-top: 16px;
+    margin-right: 200px;
+    
+}
+
+.box{
+    padding: 10px 30px;
+    background-color: black;
+    margin-top: 31px;
+    font-size: 18px;
+    font-weight: 800;
+    
+}
